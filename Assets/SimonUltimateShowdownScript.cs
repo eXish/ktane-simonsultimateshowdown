@@ -944,7 +944,7 @@ public class SimonUltimateShowdownScript : MonoBehaviour {
             temp2 = getPriorityListColor();
             correctColorsModified.Add(temp2);
             if (!verynew)
-                Debug.LogFormat("[Simon's Ultimate Showdown #{0}] Due to no detected presses the final modified color sequence for stage {1} is {2} according to priority list {3}", moduleId, stage, temp2);
+                Debug.LogFormat("[Simon's Ultimate Showdown #{0}] Due to no detected presses the final modified color sequence for stage {1} is {2} according to priority list {3}", moduleId, stage, temp2, usedPriorityList);
         }
         else
         {
