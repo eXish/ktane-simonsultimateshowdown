@@ -3906,36 +3906,42 @@ public class SimonUltimateShowdownScript : MonoBehaviour {
         {
             { "Filename", "SimonsUltimateShowdownSettings.json" },
             { "Name", "Simon's Ultimate Showdown Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "disableStages" },
-                    { "Text", "Prevents the appearance of any buttons from \"Simon's Stages\"" }
+                    { "Text", "Disable Stages" },
+                    { "Description", "Prevents the appearance of any buttons from \"Simon's Stages\"." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "disableScrambles" },
-                    { "Text", "Prevents the appearance of any buttons from \"Simon Scrambles\"" }
+                    { "Text", "Disable Scrambles" },
+                    { "Description", "Prevents the appearance of any buttons from \"Simon Scrambles\"." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "disableScreams" },
-                    { "Text", "Prevents the appearance of any buttons from \"Simon Screams\"" }
+                    { "Text", "Disable Screams" },
+                    { "Description", "Prevents the appearance of any buttons from \"Simon Screams\"." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "disableStops" },
-                    { "Text", "Prevents the appearance of any buttons from \"Simon Stops\"" }
+                    { "Text", "Disable Stops" },
+                    { "Description", "Prevents the appearance of any buttons from \"Simon Stops\"." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "disableTasha" },
-                    { "Text", "Prevents the appearance of any buttons from \"Tasha Squeals\"" }
+                    { "Text", "Disable Tasha" },
+                    { "Description", "Prevents the appearance of any buttons from \"Tasha Squeals\"." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "disableSimons" },
-                    { "Text", "Prevents the appearance of any buttons from \"Simon Simons\"" }
+                    { "Text", "Disable Simons" },
+                    { "Description", "Prevents the appearance of any buttons from \"Simon Simons\"." }
                 },
             } }
         }
